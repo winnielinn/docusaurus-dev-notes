@@ -122,6 +122,17 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        magicComments: [
+          {
+            className: "theme-code-block-highlighted-line",
+            line: "highlight",
+            block: { start: "highlight-start", end: "highlight-end" },
+          },
+          {
+            className: "code-block-error-line",
+            line: "error",
+          },
+        ],
       },
     }),
 };
