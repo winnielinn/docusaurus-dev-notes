@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://winninelin-tech.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -74,6 +74,12 @@ const config = {
           },
         ],
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       footer: {
         style: 'dark',
         links: [
@@ -81,7 +87,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Hello World',
                 to: '/docs/intro',
               },
             ],
@@ -122,6 +128,17 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        magicComments: [
+          {
+            className: "theme-code-block-highlighted-line",
+            line: "highlight",
+            block: { start: "highlight-start", end: "highlight-end" },
+          },
+          {
+            className: "code-block-error-line",
+            line: "error",
+          },
+        ],
       },
     }),
 };
