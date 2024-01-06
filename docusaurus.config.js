@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://winninelin-tech.vercel.app',
+  url: 'https://winnielin-tech.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -79,6 +79,11 @@ const config = {
           hideable: true,
           autoCollapseCategories: true,
         },
+      },
+      algolia: {
+        apiKey: '95effdf4b82c703e5f70dfc9fcad07b2',
+        appId: '1UQ8TC1THD',
+        indexName: 'winnie-tech-notes'
       },
       footer: {
         style: 'dark',
