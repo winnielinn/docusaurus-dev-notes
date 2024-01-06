@@ -12,7 +12,7 @@ Relational Database Management System 又稱關聯式資料庫系統 (RDBMS)，�
 
 * 資料是以資料表 (Table) 的方式存放，每一列 (Row) 都代表一筆資料，而每一欄 (Column) 則被稱為資料欄位 (Field)，代表意義為屬性 (Attribute)。
 
-![From ALPHA camp](https://assets-lighthouse.alphacamp.co/uploads/image/file/6770/ExportedContentImage_04.png)
+![RDBMS from ALPHA Camp](https://assets-lighthouse.alphacamp.co/uploads/image/file/6770/ExportedContentImage_04.png)
 
 * 一般都用來儲存結構化的資料，資料之間有明確的關聯。
 * 以 SQL (Structured Query Language 結構化查詢語言) 操作。
@@ -26,13 +26,13 @@ NoSQL 的意思為 Not Only SQL，不限定為關聯式資料庫的統稱，主�
 
 * 每筆資料為一份文件 (Document)，這些文件會組成集合 (Collection)，通常將資料儲存為 JSON 文件。
 
-![From ALPHA camp](https://assets-lighthouse.alphacamp.co/uploads/image/file/11255/ExportedContentImage_01.png)
+![NoSQL from ALPHA Camp](https://assets-lighthouse.alphacamp.co/uploads/image/file/11255/ExportedContentImage_01.png)
 
 * 通常不使用關聯模型，也並不需要固定的結構 (Schema-Free)。但有需要時， NoSQL 也可以使用關聯模型與 Schema
 * 放寬關聯式資料庫的一致性限制。
 * 資料物件由 Key-Value Pair (屬性-值) 或陣列組成。
 
-<CenterImage src="https://assets-lighthouse.alphacamp.co/uploads/image/file/20537/ExportedContentImage_02.png" alt="Document"/>
+<CenterImage src="https://assets-lighthouse.alphacamp.co/uploads/image/file/20537/ExportedContentImage_02.png" alt="Document from ALPHA Camp"/>
 
 ## 何時使用 RDBMS? 何時使用 NoSQL?
 
