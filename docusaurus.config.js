@@ -46,6 +46,9 @@ const config = {
           editUrl:
             'https://github.com/winnielinn/docusaurus-dev-notes/tree/main',
           showLastUpdateTime: true,
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
+          ],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -144,6 +147,7 @@ const config = {
             line: "error",
           },
         ],
+        additionalLanguages: ['JSON', 'Bash', 'Git', 'PHP', 'SQL']
       },
     }),
 };
