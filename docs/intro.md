@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## Catalog
 
-* [Cloud](category/cloud)
+* [AWS](category/aws)
 * [WebDev](category/webdev)
 * [Database](category/database)
 
