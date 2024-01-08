@@ -27,7 +27,7 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 
 一筆資料 A 只會對應到最多一筆資料 B。
 
-<CenterImage src={require('./img/relationship-one-to-one.png').default} alt="one-to-one"/>
+<CenterImage src={require('./img/relationship-one-to-one.png').default} alt="One To One"/>
 
 像是一個人只會對應到一組身分證字號，而這組身分證字號也只會被一個人所擁有。
 
@@ -35,7 +35,7 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 
 一筆資料 A 會對應到多筆資料 Bs，而資料 B 則只會對應到一筆資料 A。
 
-<CenterImage src={require('./img/relationship-one-to-many.png').default} alt="one-to-many"/>
+<CenterImage src={require('./img/relationship-one-to-many.png').default} alt="One To Many"/>
 
 像是一個人會擁有多筆訂單，但是一筆訂單只會屬於一個人。
 
@@ -43,7 +43,7 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 
 一筆資料 A 會對應到多筆資料 Bs，資料 B 也會對應到多筆資料 As。
 
-<CenterImage src={require('./img/relationship-many-to-many.png').default} alt="many-to-many"/>
+<CenterImage src={require('./img/relationship-many-to-many.png').default} alt="Many To Many"/>
 
 像是一位醫生會有很多位病人，一位病人可能也有很多不同的醫生。
 
@@ -89,11 +89,11 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 
 * 把使用者的主鍵 (id) 當作外鍵建立在身份證字號這張資料表內。
 
-<CenterImage src={require('./img/relationship-one-to-one-key.png').default} alt="one-to-one-key-sample-1"/>
+<CenterImage src={require('./img/relationship-one-to-one-key.png').default} alt="One To One Key Sample 1"/>
 
 * 把身份證字號的主鍵 (id) 當作外鍵建立在使用者這張資料表內。
 
-<CenterImage src={require('./img/relationship-one-to-one-key.png').default} alt="one-to-one-key-sample-2"/>
+<CenterImage src={require('./img/relationship-one-to-one-key-2.png').default} alt="One To One Key Sample 2"/>
 
 #### 一對多 (One to Many)
 
@@ -101,7 +101,7 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 
 * 把使用者的主鍵 (id) 當作外鍵建立在訂單這張資料表內。
 
-<CenterImage src={require('./img/relationship-one-to-many-key.png').default} alt="one-to-many-key"/>
+<CenterImage src={require('./img/relationship-one-to-many-key.png').default} alt="One To Many Key"/>
 
 #### 多對多 (Many to Many)
 
@@ -109,7 +109,7 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 
 * 透過 Join Table (Clinic) 與 Table Doctor 和 Table Patient 產生一對多的關聯，藉此將兩個多對多關聯的 Table 建立起關聯。
 
-<CenterImage src={require('./img/relationship-many-to-many-key.png').default} alt="many-to-many-key"/>
+<CenterImage src={require('./img/relationship-many-to-many-key.png').default} alt="Many To Many Key"/>
 
 ## 總結
 

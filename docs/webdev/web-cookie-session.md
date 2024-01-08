@@ -22,7 +22,7 @@ HTTP 傳輸協定也是一個不會主動儲存 request 狀態資訊的無狀態
 
 簡單的以下圖來進行無狀態的解釋，對 B (伺服器) 來說，每一次的對話都是全新的，並不會記憶這次的對話和上次是否有關聯，也無法得知上一次的內容和資訊。
 
-<CenterImage src={require('./img/cookie-session-statusless.png').default} alt="cookie-session-statusless"/>
+<CenterImage src={require('./img/cookie-session-statusless.png').default} alt="Stateless  Protocols"/>
 
 因此，當你從瀏覽器每送出一個請求，伺服器會將每一個請求都當成新的請求，不會記憶你在上一個請求中是否已經登入驗證過。
 
@@ -65,19 +65,19 @@ app.get('/path', (req, res) => {
 
 根據上個步驟設定之後，往後瀏覽器所發送的每一個請求，都會帶上 `userAuthentication = passed`：
 
-<CenterImage src={require('./img/cookie-session-devtool-cookie.png').default} alt="devtool-cookies"/>
+<CenterImage src={require('./img/cookie-session-devtool-cookie.png').default} alt="Devtool Cookies"/>
 
 但儲存在 Cookie 內的所有資料在 Client 端就可以被修改，非常容易被偽造，這代表一些重要的資訊 (如密碼) 就不能存放在 Cookie 中了。
 
 而且 Cookie 的儲存容量大約 4 KB，若數據字段太多也會影響傳輸效率。
 
-<CenterImage src={require('./img/cookie-session-devtool-cookie-changed.png').default} alt="devtool-cookies-changed"/>
+<CenterImage src={require('./img/cookie-session-devtool-cookie-changed.png').default} alt="Devtool Cookies Changed"/>
 
 為了降低資料被串改的風險又可以達到使用者認證的效果，實務上我們會使用 Cookie-Based Session 來實現使用者認證。
 
 把真正的使用者資料存在資料庫，並在伺服器上建立一個儲存機制，將用戶端、伺服器端、資料庫三個地方的資訊匹配起來 ── Session。
 
-<CenterImage src="https://assets-lighthouse.alphacamp.co/uploads/image/file/12337/ExportedContentImage_05.png" alt="session-usage"/>
+<CenterImage src="https://assets-lighthouse.alphacamp.co/uploads/image/file/12337/ExportedContentImage_05.png" alt="Session Usage from ALPHA Camp"/>
 
 ## Session
 
@@ -85,7 +85,7 @@ Session 是 Server 為 Client 開闢的一個儲存空間。
 
 Session 負責記錄在 Server 的使用者訊息，會在使用者完成身分認證後，存下相關資料，並產生一組對應的 ID 回傳 Client，而在每一次 Client 發送請求的時候，都會帶上這組 ID 供 Server 驗證。
 
-<CenterImage src={require('./img/cookie-session-usage-of-session.png').default} alt="usage-of-session"/>
+<CenterImage src={require('./img/cookie-session-usage-of-session.png').default} alt="Session Usage"/>
 
 ### express-sesssion 實際操作
 
@@ -123,7 +123,7 @@ router.post('/login', (req, res) => {
 
 connect.sid 是由 `express-session` 生成的資訊，往後瀏覽器所發送的每一個請求，都會帶上 connect.sid 和一組獨特的 SessionID。
 
-<CenterImage src={require('./img/cookie-session-devtool-session.png').default} alt="devtool-session"/>
+<CenterImage src={require('./img/cookie-session-devtool-session.png').default} alt="Devtool Session"/>
 
 ## 白話說明 Cookie 和 Session 的關係
 
