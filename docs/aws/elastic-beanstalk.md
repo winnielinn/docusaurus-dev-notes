@@ -1,5 +1,5 @@
 ---
-title: "[AWS] 用 Elastic Beanstalk 部署 Todo List"
+title: "用 Elastic Beanstalk 部署 Todo List"
 description: 手把手教學使用 Elastic Beanstalk
 keywords: [aws, cloud-service, elastic-beanstalk]
 ---
