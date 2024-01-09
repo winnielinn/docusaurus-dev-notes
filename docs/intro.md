@@ -8,5 +8,6 @@ sidebar_position: 1
 ## Catalog
 
 * [AWS](category/aws)
-* [WebDev](category/webdev)
 * [Database](category/database)
+* [JavaScript](category/javascript)
+* [WebDev](category/webdev)
