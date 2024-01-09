@@ -5,7 +5,6 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '關於我',
-    image: 'img/profile.jpg',
     description: (
       <>
         <p>是位幸運地在軟體開發上找到興趣的後端小菜鳥。</p>
@@ -17,7 +16,6 @@ const FeatureList = [
   },
   {
     title: '關於網站',
-    image: 'img/website.png',
     description: (
       <>
         <p>“If I have seen further it is by standing on the shoulders of giants.”</p>
@@ -28,20 +26,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({ image, title, description }) {
+function Feature({ title, description }) {
   return (
     <div className={clsx('col col--6')}>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <div style={{ height: '200px', overflow: 'auto' }}>{description}</div>
-      </div>
-      <div className="text--center" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <img style={{
-          maxHeight: '60%',
-          maxWidth: '60%',
-          margin: '3% 0 10% 0',
-          padding: 0,
-        }} src={image} alt="輔助說明照片"></img>
       </div>
     </div>
   );
@@ -55,6 +45,14 @@ export default function HomepageFeatures() {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+        </div>
+        <div className="text--center" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <img style={{
+            height: 'auto',
+            width: '60%',
+            margin: '2% 0 8% 0',
+            padding: 0,
+          }} src='img/profile.jpg' alt="個人照片"></img>
         </div>
       </div>
     </section>

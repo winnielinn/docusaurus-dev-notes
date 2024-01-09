@@ -1,8 +1,8 @@
 {
-  "label": "Cloud",
+  "label": "AWS",
   "position": 2,
   "link": {
-    "title": "Cloud",
+    "title": "AWS",
     "type": "generated-index"
   }
 }
