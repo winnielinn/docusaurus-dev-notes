@@ -1,6 +1,6 @@
 ---
-title: 排程工作 (CronJob)
-description: 介紹及如何使用 cronjob
+title: CronJob
+description: 介紹及如何使用排程工作
 keywords: [devlop, cronjob, linux, nodejs]
 ---
 
