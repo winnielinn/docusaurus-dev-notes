@@ -24,13 +24,13 @@ V8 引擎是 Google 開發的開源 JavaScript 引擎，裡面僅含有：
 
 * **Memory Heap**：記憶體機制，主要執行記憶體分配 (Memory Allocation)，依照所宣告的變數、函式、物件等，將其儲存在相對應的儲存空間 (Stack or Heap)。
 
-:::info[RECOMMENDED]
+:::info[RECOMMENDATION]
 [Call stack & Memory heap](https://javascript-1.gitbook.io/javascript/call-stack-and-memory-heap.html)
 :::
 
 * **Call Stack**：執行堆疊，主要紀錄目前程式執行到哪個部分，也就是現在是在哪個執行環境 (Execution Context) 底下，而堆疊 (Stack) 的順序按照後進先出 (LIFO, Last In First Out) 的原理運作。
 
-:::info[RECOMMENDED]
+:::info[RECOMMENDATION]
 [Memory Life cycle Heap & Stack and Call Stack in JavaScript](https://blog.alexdevero.com/memory-life-cycle-heap-stack-javascript.html)
 :::
 
