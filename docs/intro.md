@@ -12,3 +12,4 @@ sidebar_position: 1
 * [DevOps](category/devops)
 * [JavaScript](category/javascript)
 * [WebDev](category/webdev)
+* [Others](category/others)
