@@ -9,5 +9,7 @@ sidebar_position: 1
 
 * [AWS](category/aws)
 * [Database](category/database)
+* [DevOps](category/devops)
 * [JavaScript](category/javascript)
 * [WebDev](category/webdev)
+* [Others](category/others)

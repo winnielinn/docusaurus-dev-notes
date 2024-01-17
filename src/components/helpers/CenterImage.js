@@ -5,7 +5,7 @@ const CenterImage = ({ src }) => {
     <div
       style={{ display: "flex", flexDirection: "column", marginBottom: "20px" }}
     >
-      <img src={src} width="100%" style={{ margin: "0 auto" }} />
+      <img src={src} width="auto" style={{ margin: "0 auto" }} />
     </div>
   );
 };

@@ -1,0 +1,8 @@
+{
+    "label" : "Others",
+    "position": 4,
+    "link" : {
+        "title": "Other",
+        "type": "generated-index"
+    }
+}
