@@ -1,6 +1,6 @@
 ---
 title: Regular Expression
-description: 介紹使用 regex
+description: 介紹及使用 regex
 keywords: [regex, regular expression, javascript]
 ---
 

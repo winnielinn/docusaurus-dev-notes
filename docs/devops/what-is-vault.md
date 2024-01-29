@@ -1,6 +1,6 @@
 ---
 title: HashiCorp Vault 
-description: 介紹及如何公司專案內如何使用 vault
+description: 介紹及公司專案內如何使用 vault
 keywords: [devlop, hashiCorp, vault, gitlab]
 ---
 
