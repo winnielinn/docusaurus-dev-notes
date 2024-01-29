@@ -47,8 +47,8 @@ keywords: [aws, cloud-service, elastic-beanstalk]
 
 #### eb init
 
-```bash npm2yarn
-eb init
+```bash
+$ eb init
 ```
 
 輸入指令後，會有一連串需要設定的東西:
@@ -77,8 +77,8 @@ eb init
 
 現在要正式地把專案建立於 AWS 上。
 
-```bash npm2yarn
-eb create
+```bash
+$ eb create
 ```
 
 輸入指令之後又會需要設定一些東西，不過只要直接跟著預設的選項去進行處理就好了，只有 `Spot Fleet request` 需要選擇 **Ｎ**。
@@ -208,8 +208,8 @@ container_commands: // 部署之後會自動完成以下設定的 commands ("npm
 
 #### eb deploy
 
-```bash npm2yarn
-eb deploy
+```bash
+$ eb deploy
 ```
 
 :::warning[WARNING]
@@ -226,8 +226,8 @@ EB 部署是抓最新一筆 git 的 commit。
 
 如果需要中斷 Elastic Beanstalk 服務，可以透過以下指令來中斷：
 
-```bash npm2yarn
-eb terminate
+```bash
+$ eb terminate
 ```
 
 :::info[REFERENCE]

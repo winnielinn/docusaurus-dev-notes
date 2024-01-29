@@ -38,8 +38,8 @@ npm install -g hexo-cli
 
 * 切換到想建立 Hexo 專案的路徑下，初始化 Hexo 並產生一個 `blog` 資料夾：
 
-```bash npm2yarn
-hexo init blog
+```bash
+$ hexo init blog
 ```
 
 * 切換到 Hexo 產生的專案資料夾，安裝 Hexo 所需要的套件：
@@ -88,8 +88,8 @@ Hexo 提供了各式各樣的[主題](https://hexo.io/themes/)進行挑選，預
 
 ### 建立新文章
 
-```bash npm2yarn
-hexo new post "我的第一篇文章 By Hexo"
+```bash
+$ hexo new post "我的第一篇文章 By Hexo"
 ```
 
 輸入指令之後，會發現 `source` 的 `_posts` 資料夾多了一個 `我的第一篇文章-By-Hexo.md` 的檔案。
@@ -116,8 +116,8 @@ hi~ 我是 Winnie~ 很高興認識你~
 
 透過以下指令，啟動本地伺服器：
 
-```bash npm2yarn
-hexo server
+```bash
+$ hexo server
 ```
 
 終端機會顯示 `Hexo is running at http://localhost:4000/`：
@@ -130,8 +130,8 @@ hexo server
 
 這時候可以輸入以下指令，將其清除：
 
-```bash npm2yarn
-hexo clean
+```bash
+$ hexo clean
 ```
 
 ## 部署至 Github Pages
