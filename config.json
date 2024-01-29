@@ -1,6 +1,6 @@
 {
   "index_name": "winnie-tech-notes",
-  "start_urls": ["https://winnielin-tech.vercel.app//"],
+  "start_urls": ["https://winnielin-tech.vercel.app/"],
   "sitemap_urls": [
     "https://winnielin-tech.vercel.app/sitemap.xml"
   ],
