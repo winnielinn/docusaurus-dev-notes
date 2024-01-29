@@ -4,6 +4,8 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
+require('dotenv').config()
+
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -84,8 +86,8 @@ const config = {
         },
       },
       algolia: {
-        apiKey: '95effdf4b82c703e5f70dfc9fcad07b2',
-        appId: '1UQ8TC1THD',
+        apiKey: process.env.API_KEY,
+        appId: process.env.APPLICATION_ID,
         indexName: 'winnie-tech-notes'
       },
       footer: {
