@@ -11,5 +11,6 @@ sidebar_position: 1
 * [Database](category/database)
 * [DevOps](category/devops)
 * [JavaScript](category/javascript)
+* [Networking](category/networking)
 * [WebDev](category/webdev)
 * [Others](category/others)
