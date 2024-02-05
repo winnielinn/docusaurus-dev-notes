@@ -149,7 +149,7 @@ const config = {
             line: "error",
           },
         ],
-        additionalLanguages: ['JSON', 'Bash', 'Git', 'PHP', 'SQL']
+        additionalLanguages: ['JSON', 'Bash', 'Git', 'PHP', 'SQL', 'systemd', 'YAML']
       },
     }),
 };

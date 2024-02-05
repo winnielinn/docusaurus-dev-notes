@@ -38,8 +38,8 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 
 6. 開啟專案底下的一個新的 Terminal 並輸入以下 Command：
 
-```bash npm2yarn
-./ngrok config add-authtoken <YOUR_AUTH_TOKEN>
+```bash
+$ ./ngrok config add-authtoken <YOUR_AUTH_TOKEN>
 ```
 
 :::tip[TIP]
@@ -50,11 +50,10 @@ import CenterImage from "@site/src/components/helpers/CenterImage";
 代表已經成功將 Authtoken 已經存到 Configuration 了。
 :::
 
+7. 接著輸入以下指令，代表我們要在哪一個 PORT 上啟動 HTTP 通道：
 
-7. 接著輸入，代表我們要在哪一個 PORT 上啟動 HTTP 通道：
-
-```bash npm2yarn
-./ngrok http <YOUR_PORT>
+```bash
+$ ./ngrok http <YOUR_PORT>
 ```
 
 終端機出現以下訊息，就代表可以成功透過該網址直接讓 `localhost` 對外進行測試囉！
