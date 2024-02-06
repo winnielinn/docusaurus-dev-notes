@@ -1,41 +1,49 @@
-# Website
+# Winnie's Tech Notes 📔
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Introduction
 
-### Installation
+This project is a dynamic repository of my journey through the technical world.
 
-```
-$ yarn
-```
+It's designed to share the wealth of knowledge I've accumulated and document the solutions to various problems I've encountered along the way.
 
-### Local Development
+## Getting Started
 
-```
-$ yarn start
-```
+Visit [Winnie's Tech Notes](https://winnielin-tech.vercel.app/) to explore.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+For those interested in contributing or setting up the project locally, follow these steps:
 
-### Build
+- Clone the repository: 
 
-```
-$ yarn build
+```bash
+$ git clone https://github.com/winnielinn/docusaurus-dev-notes.git
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- Install dependencies: 
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+$ npm install
 ```
 
-Not using SSH:
+- Start the development server: 
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+$ npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Visit `http://localhost:3000/` in your browser to view the project locally.
+
+## Development
+
+Developed using [Docusaurus 2](https://docusaurus.io/)for documentation, [Vercel](https://vercel.com/) for deployment, [Algolia](https://www.algolia.com/) for search functionality, and [giscus](https://giscus.app/) for comments.
+
+## Contributing
+
+Contributions are highly welcome!
+
+Just send a pull request to me 👌
+
+Whether it's adding new notes, improving existing content, or fixing typos, every contribution makes my knowledge base richer.
+
+## Contributor
+
+[Winnie Lin](https://github.com/winnielinn)
