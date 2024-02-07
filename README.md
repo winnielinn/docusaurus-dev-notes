@@ -1,5 +1,7 @@
 # Winnie's Tech Notes 📔
 
+![Demo](https://github.com/winnielinn/docusaurus-dev-notes/blob/main/img/demo.gif)
+
 ## Introduction
 
 This project is a dynamic repository of my journey through the technical world.
