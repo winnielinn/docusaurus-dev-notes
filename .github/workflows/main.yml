@@ -1,0 +1,19 @@
+name: Aloglia DocSearch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docsearch:
+    runs-on: ubuntu-latest
+    name: Aloglia DocSearch
+    steps:
+      - uses: actions/checkout@v2
+      - uses: darrenjennings/algolia-docsearch-action@master
+        with:
+          algolia_api_key: ${{ secrets.ALGOLIA_API_KEY }}
+          algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+          # needs to be inside $GITHUB_WORKSPACE from actions/checkout step
+          file: config.json
