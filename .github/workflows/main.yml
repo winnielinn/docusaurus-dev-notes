@@ -1,14 +1,15 @@
-name: Aloglia DocSearch
+name: Algolia DocSearch
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   docsearch:
     runs-on: ubuntu-latest
-    name: Aloglia DocSearch
+    name: Algolia DocSearch
     steps:
       - uses: actions/checkout@v2
       - uses: darrenjennings/algolia-docsearch-action@master
